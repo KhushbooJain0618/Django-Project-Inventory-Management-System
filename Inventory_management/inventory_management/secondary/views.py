@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 
-
 def reports_page(request):
     return render(request, 'reports.html')
 
@@ -18,10 +17,8 @@ def privacy_policy(request):
 def cookie_policy(request):
     return render(request, 'cookie_policy.html')
 
-
 def contact_us(request):
     return render(request, 'contact.html')
-
 
 def manage1(request):
     return render(request, 'manage1.html')
